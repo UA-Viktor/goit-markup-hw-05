@@ -1,0 +1,54 @@
+.footer-connect {
+    margin-left: 93px;
+    margin-top: 12px;
+}
+
+.footer-connect-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $text-color-head-footer;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-connect-group {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-connect-input {
+    width: 358px;
+    padding: 15px 16px;
+
+    border: 0;
+    background-color: $bg-color-head-footer;
+    color: $text-color-head-footer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.footer-connect-button {
+    padding: 10px 28px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+    cursor: pointer;
+    border: 0;
+    background-color: $text-color-accent;
+    border-radius: 4px;
+}
+
+.footer-connect-icon {
+    margin-left: 10px;
+}

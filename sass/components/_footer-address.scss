@@ -1,0 +1,33 @@
+.footer__logo {
+    color: $text-color-head-footer;
+    margin-bottom: 20px;
+}
+
+.footer-address {
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+}
+
+.address {
+    color: $text-color-head-footer;
+}
+
+.footer .street {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    margin-bottom: 9px;
+}
+
+.footer .mail {
+    margin-bottom: 9px;
+}
+
+.address a {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}

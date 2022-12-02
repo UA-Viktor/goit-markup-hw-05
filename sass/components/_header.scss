@@ -1,0 +1,39 @@
+.header {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    border-bottom: 1px solid #ececec;
+    background-color: $bg-color-primary;
+}
+
+
+// Видео 1 на 1 час :01 минута
+
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .link:hover,
+.header .link:focus {
+    color: $text-color-accent
+}
+
+.header .link.current {
+    color: $text-color-accent
+}
+
+.button-close-mobile {
+    margin: 10px 0;
+    background-color: $bg-color-primary;
+    border: none;
+}
+
+.close-mobile{
+    fill: currentColor;
+}
